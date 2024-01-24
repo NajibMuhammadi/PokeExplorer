@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PokeExplorer</title>
+</head>
+
+<body>
+    <button>Pokedex</button>
+    <button>Search Pokemon</button>
+    <button>Generate Pokemon</button>
+    <div class="card-container" id="cardContainer"></div>
+    <div class="form-container" id="form">
+        <form>
+            <input type="text" id="pokemonName" placeholder="Insert the name of the pokemon you want to search for...">
+            <button id="searchBtn">Search</button>
+        </form>
+        <div class="search-container" id="cardContainer"></div>
+    </div>
+    <div class="random-container" id="randomGen">
+        <form>
+            <input type="number" id="numberInput" placeholder="Insert the number of the pokemon you want to generate">
+            <button id="genBtn">Search</button>
+        </form>
+
+        <div class="search-container" id="randomCardContainer"></div>
+    </div>
+
+    <script src="pokemons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
